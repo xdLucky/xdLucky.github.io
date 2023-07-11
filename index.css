@@ -1,0 +1,17 @@
+#formInstructor {
+    margin-top: -10px;
+    color:pink;
+    font-size:30px;
+    margin-bottom:-0.0050em;
+}
+/* #confirm {
+    margin-bottom: 0px;
+    margin-top: -5px;
+    float: center;
+    box-sizing: border-box;
+} */
+#confirm {
+    font-size:2em;
+    margin-left:1.75em;
+    float: center;  /*Should be removed. Only for demonstration */
+  }
