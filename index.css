@@ -1,8 +1,25 @@
+/* body{
+    background-color:lightgrey;
+    padding-bottom:900px
+} */
+html,body {
+    min-height:100vh;
+    background-color:lightgrey;
+    padding:0;
+}
+#layerBackground{
+    background-color:lightsteelblue;
+    margin-bottom:100%;
+    padding-bottom:40%;
+}
 #formInstructor {
     margin-top: -10px;
     color:pink;
-    font-size:30px;
+    font-size:70px;
     margin-bottom:-0.0050em;
+    font-family:Arial, Helvetica, sans-serif;
+    outline:90px;
+    outline-color:black;
 }
 /* #confirm {
     margin-bottom: 0px;
@@ -10,8 +27,25 @@
     float: center;
     box-sizing: border-box;
 } */
+#confirmer{
+    margin-left:617px;
+    margin-top:-200px;
+}
 #confirm {
-    font-size:2em;
-    margin-left:1.75em;
-    float: center;  /*Should be removed. Only for demonstration */
+    font-size:7em;
+    /* margin-left:1.75em; */
+    text-align:center;
   }
+.inputs {
+    font-family:arial;
+    margin-left:-0.38em;
+    text-align:center;
+    color:white;
+    outline:0px;
+    background-color:lightpink;
+    text-decoration:dotted;
+    padding-top:60px;
+    padding-bottom:60px;
+    padding-left:22.5px;
+    padding-right:22.5px;
+}

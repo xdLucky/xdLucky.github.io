@@ -2,31 +2,75 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css"> <meta charset="utf-8"><script type="text/javascript" src="date-en-CA.js"></script>
 </head>
 
 <body>
- <div id="january">
-    <button id="2023/01/01b"><span id="2023/01/01v">add day</span></button>
-    <dialog id="informer" show>
-        <p id="formInstructor">How did today go?</p> 
-        <div id = "input">
-            <button id="1" class="inputs">1</button>
-            <button id="2" class="inputs">2</button>
-            <button id="3" class="inputs">3</button>
-            <button id="4" class="inputs">4</button>
-            <button id="5" class="inputs">5</button>
-            <button id="6" class="inputs">6</button>
-            <button id="7" class="inputs">7</button>
-            <button id="8" class="inputs">8</button>
-            <button id="9" class="inputs">9</button>
-            <button id="10" class="inputs">10</button>
+    <div id="layerBackground">
+        <div id="currentYearMonths">
+            <dialog id="informer" show>
+            <p id="formInstructor">How did today go?</p>
+            <div id="input">
+                <button id="1" class="inputs">1</button>
+                <button id="2" class="inputs">2</button>
+                <button id="3" class="inputs">3</button>
+                <button id="4" class="inputs">4</button>
+                <button id="5" class="inputs">5</button>
+                <button id="6" class="inputs">6</button>
+                <button id="7" class="inputs">7</button>
+                <button id="8" class="inputs">8</button>
+                <button id="9" class="inputs">9</button>
+                <button id="10" class="inputs">10</button>
+            </div>
+            <dialog id="confirmer" show>
+                <div id="confirm">Confirm!</div>
+            </dialog>
+        </dialog>
+            <div id="january" class="Months">
+            <button id="2023/01/01b"><span id="2023/01/01v">0</span></button>
+            
+            </div>
+            <div id="february" class="Months">
+
+            </div>
+            <div id="march" class="Months">
+
+            </div>
+            <div id="april" class="Months">
+
+            </div>
+            <div id="may" class="Months">
+
+            </div>
+            <div id="june" class="Months">
+
+            </div>
+            <div id="july" class="Months">
+
+            </div>
+            <div id="august" class="Months">
+
+            </div>
+            <div id="september" class="Months">
+
+            </div>
+            <div id="october" class="Months">
+
+            </div>
+            <div id="november" class="Months">
+
+            </div>
+            <div id="december" class="Months">
+
+            </div>
         </div>
-        <dialog id="confirmer" show><div id="confirm">Confirm!</div></dialog>
-    </dialog>
- </div>
- <div>
- <p id="log"> </p><p>Hes to the left of me</p></div> <header id="secondLog"></header>
+        <div>
+            <p id="log"> </p>
+            <p>Hes to the left of me</p>
+        </div>
+        <header id="secondLog"></header>
+    </div>
+    
 </body>
 
 <script src="./index.js" type="text/javascript" defer></script>
