@@ -49,3 +49,32 @@ html,body {
     padding-left:22.5px;
     padding-right:22.5px;
 }
+.Months {
+    padding-bottom:23%;
+    background-color:aliceblue;
+    /* margin-left:30%;
+    margin-right:0%; */
+
+    border-radius: 70px;
+    column-count: 7;
+    column-gap: 40px;
+    row-gap: 40px;
+    display:grid; 
+    grid-template-columns: 35px 35px 35px 35px 35px 35px 35px;
+    align-items: center;
+}
+.yearview {
+    column-count: 2;
+    column-gap: 200px;
+}
+button {
+    padding-left:30px;
+    padding-right:30px;
+    margin-left:0px;
+    margin-top: 30px;
+    margin-bottom:-40px;
+}
+#outeredge{
+    margin-left:400px;
+    margin-right:400px;
+}
